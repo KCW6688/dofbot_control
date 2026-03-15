@@ -17,8 +17,8 @@ class ArmController:
 
         self.min_angle = 0
         self.max_angle = 180
-        self.step = 5
-        self.move_time = 300
+        self.step = 1
+        self.move_time = 800
 
     def clamp(self, angle):
         return max(self.min_angle, min(self.max_angle, angle))
